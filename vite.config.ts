@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/',
   server: {
     host: "::",
     port: 8080,
@@ -20,6 +21,8 @@ export default defineConfig(({ mode }) => ({
   },
   assetsInclude: ['**/*.pdf'],
   build: {
+    outDir: 'dist',
+    sourcemap: true,
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
