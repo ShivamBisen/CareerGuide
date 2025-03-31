@@ -75,7 +75,7 @@ const CVRepository = () => {
         mobile: "6366158576",
         linkedin: "https://www.linkedin.com/in/dhanush-pamulapati-952505156/"
       },
-      cvUrl: "assets/images/cvs/cvGenerate (4) - Dhanush Pamulapati.pdf"
+      cvUrl: "assets/images/cvs/Dhanush_Pamulapati_cv.pdf"
     },
     {
       name: "Sarnab Banerjee",
@@ -156,7 +156,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/bhumi-tayal-725913226",
       email: "bhumitayal15@gmail.com",
       phone: "7684067297",
-      cvUrl: "assets/images/cvs/Bhumi_Tayal_CV.pdf"
+      cvUrl: "assets/images/cvs/Bhumi_Tayal.pdf"
     },
     {
       name: "Tadiparthi Adarsh",
@@ -169,7 +169,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/adarsh-tadiparthi",
       email: "adarshtadiparthi30@gmail.com",
       phone: "9390004880",
-      cvUrl: "assets/images/cvs/Tadiparthi_Adarsh_CV.pdf"
+      cvUrl: "assets/images/cvs/Adarsh_Tadiparthi.pdf"
     },
     {
       name: "Nishanth Reddy Chinnapatlola",
@@ -182,7 +182,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/nishanth-reddy-b1a385229",
       email: "nishanthreddyc12@gmail.com",
       phone: "9392785866",
-      cvUrl: "assets/images/cvs/Nishanth_Reddy_CV.pdf"
+      cvUrl: "assets/images/cvs/Nishanth_Reddy.pdf"
     },
     {
       name: "S Rishikesh Reddy",
@@ -195,7 +195,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/rishikesh-reddy-sudi-reddy-a85a30289",
       email: "fyu65ht@gmail.com",
       phone: "6305650435",
-      cvUrl: "assets/images/cvs/Rishikesh_Reddy_CV.pdf"
+      cvUrl: "assets/images/cvs/Rishikesh_Reddy.pdf"
     }
   ];
 
