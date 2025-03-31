@@ -158,7 +158,7 @@ const LandingPage = () => {
             <div className="flex flex-col items-center w-64">
               <div className="relative w-32 h-32 mb-4">
                 <img
-                  src="/src/assets/images/team/varun.jpg"
+                  src="assets/images/team/varun.jpg"
                   alt="Varun"
                   className="w-full h-full rounded-full object-cover border-4 border-purple-500"
                 />
@@ -171,7 +171,7 @@ const LandingPage = () => {
             <div className="flex flex-col items-center w-64">
               <div className="relative w-32 h-32 mb-4">
                 <img
-                  src="/src/assets/images/team/aditya.jpg"
+                  src="assets/images/team/aditya.jpg"
                   alt="Aditya"
                   className="w-full h-full rounded-full object-cover border-4 border-purple-500"
                 />
@@ -184,7 +184,7 @@ const LandingPage = () => {
             <div className="flex flex-col items-center w-64">
               <div className="relative w-32 h-32 mb-4">
                 <img
-                  src="/src/assets/images/team/dhanush.jpg"
+                  src="assets/images/team/dhanush.jpg"
                   alt="Dhanush"
                   className="w-full h-full rounded-full object-cover border-4 border-purple-500"
                 />
@@ -197,7 +197,7 @@ const LandingPage = () => {
             <div className="flex flex-col items-center w-64">
               <div className="relative w-32 h-32 mb-4">
                 <img
-                  src="/src/assets/images/team/sarnab.jpg"
+                  src="assets/images/team/sarnab.jpg"
                   alt="Sarnab"
                   className="w-full h-full rounded-full object-cover border-4 border-purple-500"
                 />
@@ -210,7 +210,7 @@ const LandingPage = () => {
             <div className="flex flex-col items-center w-64">
               <div className="relative w-32 h-32 mb-4">
                 <img
-                  src="/src/assets/images/team/aryan.jpg"
+                  src="assets/images/team/aryan.jpg"
                   alt="Aryan"
                   className="w-full h-full rounded-full object-cover border-4 border-purple-500"
                 />

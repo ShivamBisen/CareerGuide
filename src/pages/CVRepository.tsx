@@ -24,7 +24,7 @@ const CVRepository = () => {
         mobile: "Not Available",
         linkedin: "https://www.linkedin.com/in/jsr-sujit-525625223/"
       },
-      cvUrl: "/src/assets/images/cvs/Sujit_Jakkinapalli_CV.pdf"
+      cvUrl: "assets/images/cvs/Sujit_Jakkinapalli_CV.pdf"
     },
     {
       name: "Mupparaju Venkata Sai Varun",
@@ -41,7 +41,7 @@ const CVRepository = () => {
         mobile: "8977249490",
         linkedin: "https://www.linkedin.com/in/venkata-sai-varun-mupparaju-916066309/"
       },
-      cvUrl: "/src/assets/images/cvs/MUPPARAJU VENKATA SAI VARUN CV.pdf"
+      cvUrl: "assets/images/cvs/MUPPARAJU VENKATA SAI VARUN CV.pdf"
     },
     {
       name: "Aditya Nandy",
@@ -58,7 +58,7 @@ const CVRepository = () => {
         mobile: "8697228157",
         linkedin: "https://www.linkedin.com/in/adityanandy28"
       },
-      cvUrl: "/src/assets/images/cvs/AdityaNandyCV-Data - Aditya Nandy.pdf"
+      cvUrl: "assets/images/cvs/AdityaNandyCV-Data - Aditya Nandy.pdf"
     },
     {
       name: "Pamulapati Dhanush",
@@ -75,7 +75,7 @@ const CVRepository = () => {
         mobile: "6366158576",
         linkedin: "https://www.linkedin.com/in/dhanush-pamulapati-952505156/"
       },
-      cvUrl: "/src/assets/images/cvs/cvGenerate (4) - Dhanush Pamulapati.pdf"
+      cvUrl: "assets/images/cvs/cvGenerate (4) - Dhanush Pamulapati.pdf"
     },
     {
       name: "Sarnab Banerjee",
@@ -92,7 +92,7 @@ const CVRepository = () => {
         mobile: "9830149045",
         linkedin: "https://www.linkedin.com/in/sarnab-banerjee-28a9a5223/"
       },
-      cvUrl: "/src/assets/images/cvs/CV_2_Sarnab_Banerjee.pdf"
+      cvUrl: "assets/images/cvs/CV_2_Sarnab_Banerjee.pdf"
     },
     {
       name: "Yesilanka Sree Aryan",
@@ -109,7 +109,7 @@ const CVRepository = () => {
         mobile: "915440291",
         linkedin: "https://www.linkedin.com/in/yesilanka/"
       },
-      cvUrl: "/src/assets/images/cvs/yesilanka sree aryan cv.pdf"
+      cvUrl: "assets/images/cvs/yesilanka sree aryan cv.pdf"
     },
     {
       name: "Kartheek Valeti",
@@ -126,7 +126,7 @@ const CVRepository = () => {
         mobile: "9182959125",
         linkedin: "https://www.linkedin.com/in/kartheekvaleti"
       },
-      cvUrl: "/src/assets/images/cvs/Kartheek_Valeti_CV.pdf"
+      cvUrl: "assets/images/cvs/Kartheek_Valeti_CV.pdf"
     },
     {
       name: "Piyush Mohanty",
@@ -143,7 +143,7 @@ const CVRepository = () => {
         mobile: "6371142464",
         linkedin: "https://www.linkedin.com/in/piyush-mohanty-324176256"
       },
-      cvUrl: "/src/assets/images/cvs/Piyush_Mohanty_CV.pdf"
+      cvUrl: "assets/images/cvs/Piyush_Mohanty_CV.pdf"
     },
     {
       name: "Bhumi Tayal",
@@ -156,7 +156,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/bhumi-tayal-725913226",
       email: "bhumitayal15@gmail.com",
       phone: "7684067297",
-      cvUrl: "/src/assets/images/cvs/Bhumi_Tayal_CV.pdf"
+      cvUrl: "assets/images/cvs/Bhumi_Tayal_CV.pdf"
     },
     {
       name: "Tadiparthi Adarsh",
@@ -169,7 +169,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/adarsh-tadiparthi",
       email: "adarshtadiparthi30@gmail.com",
       phone: "9390004880",
-      cvUrl: "/src/assets/images/cvs/Tadiparthi_Adarsh_CV.pdf"
+      cvUrl: "assets/images/cvs/Tadiparthi_Adarsh_CV.pdf"
     },
     {
       name: "Nishanth Reddy Chinnapatlola",
@@ -182,7 +182,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/nishanth-reddy-b1a385229",
       email: "nishanthreddyc12@gmail.com",
       phone: "9392785866",
-      cvUrl: "/src/assets/images/cvs/Nishanth_Reddy_CV.pdf"
+      cvUrl: "assets/images/cvs/Nishanth_Reddy_CV.pdf"
     },
     {
       name: "S Rishikesh Reddy",
@@ -195,7 +195,7 @@ const CVRepository = () => {
       linkedinUrl: "https://www.linkedin.com/in/rishikesh-reddy-sudi-reddy-a85a30289",
       email: "fyu65ht@gmail.com",
       phone: "6305650435",
-      cvUrl: "/src/assets/images/cvs/Rishikesh_Reddy_CV.pdf"
+      cvUrl: "assets/images/cvs/Rishikesh_Reddy_CV.pdf"
     }
   ];
 

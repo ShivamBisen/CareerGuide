@@ -38,7 +38,7 @@ const Hero = () => {
 
         <div className="max-w-[800px] mx-auto border-4 border-gray-200 rounded-xl shadow-xl overflow-hidden bg-white">
           <img 
-            src="/src/assets/images/mainbuilding.jpg" 
+            src="assets/images/mainbuilding.jpg" 
             alt="Career Guidance Preview" 
             className="w-full h-auto"
           />

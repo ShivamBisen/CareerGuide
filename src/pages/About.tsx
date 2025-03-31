@@ -95,7 +95,7 @@ reerGuide is a comprehensive platform designed to revolutionize the CV creation 
                 <div className="md:col-span-1">
                   <div className="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden bg-gray-100">
                     <img
-                      src="/src/assets/images/praneeth.jpg"
+                      src="assets/images/praneeth.jpg"
                       alt="Sudhagani Praneeth Kumar"
                       className="w-full h-full object-cover"
                     />
@@ -186,7 +186,7 @@ reerGuide is a comprehensive platform designed to revolutionize the CV creation 
                 <div className="md:col-span-1">
                   <div className="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden bg-gray-100">
                     <img
-                      src="/src/assets/images/bhuvan.png"
+                      src="assets/images/bhuvan.png"
                       alt="Bhuvan Raj Guguloth"
                       className="w-full h-full object-cover"
                     />
@@ -277,7 +277,7 @@ reerGuide is a comprehensive platform designed to revolutionize the CV creation 
                 <div className="md:col-span-1">
                   <div className="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden bg-gray-100">
                     <img
-                      src="/src/assets/images/kanade.png"
+                      src="assets/images/kanade.png"
                       alt="Rushikesh Kanade"
                       className="w-full h-full object-cover"
                     />

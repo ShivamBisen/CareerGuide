@@ -16,91 +16,91 @@ const competitions: Competition[] = [
     organizer: "Boston Consulting Group (BCG)",
     eligibility: "Open to undergraduate and postgraduate students globally, typically teams of 3-4 members.",
     details: "The Ideathon focuses on solving complex business problems through innovative thinking. Participants propose solutions to open-ended challenges and present them to senior BCG leaders. Winners often gain internship opportunities and exposure to consulting methodologies.",
-    image: "/src/assets/images/competitions/BCG_Insights_Ideathon.jpg"
+    image: "assets/images/competitions/BCG_Insights_Ideathon.jpg"
   },
   {
     name: "Google Summer of Code",
     organizer: "Google",
     eligibility: "Open to university students globally, 18 years and older.",
     details: "GSoC is a global program focused on bringing student developers into open source software development. Students work with mentoring organizations on 10-week programming projects during their break from university.",
-    image: "/src/assets/images/competitions/GSoc.png"
+    image: "assets/images/competitions/GSoc.png"
   },
   {
     name: "NBC Idea Factory",
     organizer: "National Engineering Industries Ltd.",
     eligibility: "Open to pre-final and final year engineering students, teams of 2-4 members.",
     details: "This competition encourages engineering innovation with multiple rounds, including idea submission, mentorship, and final presentations. Winners receive cash prizes and pre-placement interview opportunities.",
-    image: "/src/assets/images/competitions/Nbc.png"
+    image: "assets/images/competitions/Nbc.png"
   },
   {
     name: "PDMA Student Innovation Challenge",
     organizer: "Product Development and Management Association",
     eligibility: "Open to undergraduate and graduate students globally.",
     details: "A competition focused on product development and innovation management. Students develop solutions for real-world product challenges and present to industry experts.",
-    image: "/src/assets/images/competitions/PDMA-Global-Student-Innovation-Challenge.png"
+    image: "assets/images/competitions/PDMA-Global-Student-Innovation-Challenge.png"
   },
   {
     name: "Hult Prize",
     organizer: "Hult International Business School",
     eligibility: "Open to university students globally, teams of 3-4 members.",
     details: "Known as the 'Nobel Prize for Students', this competition challenges participants to solve pressing social issues through entrepreneurship. Winners receive $1M in seed funding.",
-    image: "/src/assets/images/competitions/Hult-Prize.png"
+    image: "assets/images/competitions/Hult-Prize.png"
   },
   {
     name: "EY Techathon",
     organizer: "Ernst & Young (EY)",
     eligibility: "Open to undergraduate and postgraduate students from any discipline in India, teams of up to 5 members.",
     details: "EY Techathon emphasizes AI-based solutions for real-world problems in sectors like healthcare and finance. Participants receive mentorship and access to EY technologies. Winners secure cash prizes and potential internships.",
-    image: "/src/assets/images/competitions/EY-Techathon.jpg"
+    image: "assets/images/competitions/EY-Techathon.jpg"
   },
   {
     name: "HackWithInfy",
     organizer: "Infosys",
     eligibility: "Open to pre-final and final year engineering students across India.",
     details: "HackWithInfy is Infosys's nationwide hackathon for engineering students. It offers a platform to showcase coding skills, solve real-world problems, and potentially secure a job opportunity with Infosys.",
-    image: "/src/assets/images/competitions/hackwithinfy.jpg"
+    image: "assets/images/competitions/hackwithinfy.jpg"
   },
   {
     name: "Microsoft Imagine Cup",
     organizer: "Microsoft",
     eligibility: "Open to undergraduate students globally, teams of up to 4 members.",
     details: "Imagine Cup fosters innovation by encouraging participants to develop tech solutions for global challenges using Microsoft tools like Azure and AI platforms. Winners receive cash prizes, mentorship, and global recognition.",
-    image: "/src/assets/images/competitions/Microsoft-imagine-cup.png"
+    image: "assets/images/competitions/Microsoft-imagine-cup.png"
   },
   {
     name: "Tata Imagination Challenge",
     organizer: "Tata Group",
     eligibility: "Open to college and postgraduate students across India, individual participants or teams.",
     details: "This competition invites impactful ideas that can drive positive change in society. Participants undergo rounds including online assessments, video pitches, and leader interactions with Tata executives. Winners receive cash prizes, mentorship opportunities, and accelerated entry into Tata's leadership development programs.",
-    image: "/src/assets/images/competitions/Tata-Imagination-challenge.png"
+    image: "assets/images/competitions/Tata-Imagination-challenge.png"
   },
   {
     name: "Accenture Innovation Challenge",
     organizer: "Accenture",
     eligibility: "Open to STEM undergraduate students globally, teams of up to 5 members.",
     details: "This competition focuses on creating technology-driven solutions for sustainability, healthcare, or education challenges. Participants prototype ideas using Accenture's innovation labs and tools while competing for funding and internship opportunities.",
-    image: "/src/assets/images/competitions/accenture-innovation-challenge.png"
+    image: "assets/images/competitions/accenture-innovation-challenge.png"
   },
   {
     name: "Cisco Global Problem Solver Challenge",
     organizer: "Cisco",
     eligibility: "Open to undergraduate students globally, teams of 1-5 members or startups led by students.",
     details: "Cisco's challenge awards up to $100,000 for tech solutions addressing social issues such as healthcare access or economic empowerment. Proposals are judged on scalability, technical merit, and community impact.",
-    image: "/src/assets/images/competitions/Global-Problem-Solver.png"
+    image: "assets/images/competitions/Global-Problem-Solver.png"
   },
   {
     name: "IBM Call for Code",
     organizer: "IBM",
     eligibility: "Open to developers, students, and problem solvers globally.",
     details: "Call for Code challenges developers to create practical, effective, and high-quality applications based on cloud, data, and artificial intelligence that can have an immediate and lasting impact.",
-    image: "/src/assets/images/competitions/IBM_Call_for_Code.png"
+    image: "assets/images/competitions/IBM_Call_for_Code.png"
   },
   {
     name: "JPMorgan Code for Good",
     organizer: "JPMorgan Chase",
     eligibility: "Open to undergraduate students in technology-related fields.",
     details: "A 24-hour coding challenge where participants work in teams to solve real-world problems for non-profit organizations using technology.",
-    image: "/src/assets/images/competitions/JPMorganCodeforGood.png"
+    image: "assets/images/competitions/JPMorganCodeforGood.png"
   }
 ];
 
