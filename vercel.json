@@ -18,6 +18,14 @@
       "continue": true
     },
     {
+      "src": "/api/(.*)",
+      "dest": "/api/$1",
+      "continue": true
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html",
       "headers": {
