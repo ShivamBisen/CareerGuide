@@ -23,9 +23,12 @@ export default defineConfig(({ mode }) => ({
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
-          if (assetInfo.name?.endsWith('.pdf')) {
-            return 'assets/pdfs/[name][extname]';
+          const info = assetInfo.name.split('.');
+          const ext = info[info.length - 1];
+          if (/\.(pdf)$/.test(assetInfo.name)) {
+            return `assets/pdfs/[name]-[hash][extname]`;
           }
+          return `assets/[name]-[hash][extname]`;
         },
       },
     },
