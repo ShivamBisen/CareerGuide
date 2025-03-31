@@ -1,0 +1,95 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  min-height: 100vh;
+}
+
+/* CV List Section */
+.cv-list-section {
+  padding: 2rem 0;
+}
+
+.cv-list-section h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.iits-cv-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Form Section */
+.form-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.social-icons-container a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #6c757d;
+  transition: color 0.2s;
+}
+
+.social-icons-container a:hover {
+  color: #343a40;
+}
+
+/* CV Editor */
+.cv-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+}
+
+.section-separator {
+  margin: 1rem 0;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Form Validation */
+.form-control.is-valid {
+  border-color: #28a745;
+  padding-right: calc(1.5em + .75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(.375em + .1875rem) center;
+  background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545;
+  padding-right: calc(1.5em + .75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(.375em + .1875rem) center;
+  background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+} 

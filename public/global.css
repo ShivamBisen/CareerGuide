@@ -1,0 +1,55 @@
+/* Global styles for CV templates */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.section-separator {
+  margin: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background-color: white;
+    padding: 0;
+  }
+
+  .main-container {
+    box-shadow: none;
+    max-width: none;
+  }
+
+  .btn, .section-separator {
+    display: none !important;
+  }
+}
+
+/* Editable content styles */
+[contenteditable="true"] {
+  outline: none;
+  padding: 2px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+[contenteditable="true"]:hover {
+  background-color: #f8f9fa;
+}
+
+[contenteditable="true"]:focus {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+} 

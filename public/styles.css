@@ -1,0 +1,51 @@
+/* CV List Section */
+.cv-list-section {
+    margin-top: 2rem;
+}
+
+.cv-list-section h1 {
+    margin-bottom: 2rem;
+}
+
+.iits-cv-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Form Section */
+.form-section {
+    margin-top: 4rem;
+}
+
+.section-heading {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+}
+
+.footer i.fa-heart {
+    color: #dc3545;
+}
+
+.social-icons-container a {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    color: #6c757d;
+    transition: color 0.2s;
+}
+
+.social-icons-container a:hover {
+    color: #343a40;
+}
+
+/* GitHub Fork Ribbon */
+.github-fork-ribbon:before {
+    background-color: #333;
+} 

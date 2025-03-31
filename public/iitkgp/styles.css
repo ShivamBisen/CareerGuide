@@ -1,0 +1,110 @@
+.iitkgp-cv-container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.logo-container {
+  width: 120px;
+  height: 120px;
+}
+
+.logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.intro-block {
+  text-align: left;
+}
+
+.intro-text {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.section-heading {
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  margin: 15px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.section-body {
+  padding: 0 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-header {
+  background-color: #f5f5f5;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.timeline {
+  color: #666;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.prof {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.skills p {
+  margin: 5px 0;
+}
+
+.por ul {
+  margin-bottom: 15px;
+}
+
+@media print {
+  .main-container > div:first-child,
+  .section-separator {
+    display: none;
+  }
+  
+  .cv-container {
+    padding: 0;
+  }
+  
+  @page {
+    margin: 0.5cm;
+  }
+} 

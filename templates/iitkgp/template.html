@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background: #fff;
+    }
+
+    .cv-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .institute-logo {
+      width: 100px;
+      height: 100px;
+    }
+
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ddd;
+    }
+
+    .student-info {
+      text-align: center;
+      flex-grow: 1;
+      padding: 0 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #000;
+    }
+
+    .institute-name {
+      color: #444;
+      margin: 5px 0;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section-header {
+      background: #f0f0f0;
+      padding: 8px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background: #f8f8f8;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 5px;
+    }
+
+    .project-title {
+      font-weight: bold;
+      color: #000;
+    }
+
+    .project-guide {
+      color: #666;
+      font-style: italic;
+    }
+
+    .project-duration {
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill-item {
+      background: #f0f0f0;
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+
+    [contenteditable="true"] {
+      outline: none;
+      padding: 2px;
+      border-radius: 2px;
+    }
+
+    [contenteditable="true"]:hover {
+      background: #f8f8f8;
+    }
+
+    [contenteditable="true"]:focus {
+      background: #f0f0f0;
+      box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="header">
+      <img class="institute-logo" src="/images/iitkgp-logo.png" alt="IIT KGP Logo">
+      <div class="student-info">
+        <h1 contenteditable="true">SHEKAR REDDY | 19XY10017</h1>
+        <p class="institute-name" contenteditable="true">Indian Institute of Technology, Kharagpur</p>
+      </div>
+      <div class="profile-photo" contenteditable="true">Photo</div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">EDUCATION</div>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Degree/Exam</th>
+          <th>Institute</th>
+          <th>CGPA/Percentage</th>
+        </tr>
+        <tr contenteditable="true">
+          <td>2019</td>
+          <td>B.Tech Computer Science and Engineering</td>
+          <td>Indian Institute of Technology Kharagpur</td>
+          <td>9.52</td>
+        </tr>
+        <tr contenteditable="true">
+          <td>2019</td>
+          <td>Class XII TSBIE</td>
+          <td>Narayana Junior College, Hyderabad</td>
+          <td>98.5%</td>
+        </tr>
+        <tr contenteditable="true">
+          <td>2017</td>
+          <td>Class X TSBIE</td>
+          <td>Narayana Concept School, Hyderabad</td>
+          <td>10/10</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-header">INTERNSHIPS AND PROJECTS</div>
+      <div class="project" contenteditable="true">
+        <div class="project-header">
+          <span class="project-title">Stock Price Prediction</span>
+          <span class="project-guide">Prof. Rakesh Kumar</span>
+        </div>
+        <div class="project-duration">May'20 - July'20</div>
+        <ul>
+          <li>Developed an Android application to facilitate learning of parallel programming and related concepts</li>
+          <li>Web service in App Development and Video Editing to improve learning experience for users</li>
+          <li>Link to repository is here</li>
+        </ul>
+      </div>
+
+      <div class="project" contenteditable="true">
+        <div class="project-header">
+          <span class="project-title">Building an Efficient Signal</span>
+          <span class="project-guide">Prof. Rakesh Kumar</span>
+        </div>
+        <div class="project-duration">May'20 - July'20</div>
+        <ul>
+          <li>Utilised the concepts taught in Object Oriented Programming and developed a user friendly, easy to debug code</li>
+          <li>Fully understood the potential of CFP Graphics and OpenGL to build a life-like Snake Game</li>
+        </ul>
+      </div>
+
+      <div class="project" contenteditable="true">
+        <div class="project-header">
+          <span class="project-title">AI Virtual Assistant</span>
+          <span class="project-guide">Prof. V Prasad</span>
+        </div>
+        <div class="project-duration">April'21 - July'21</div>
+        <ul>
+          <li>Used RISC-V to develop a custom Memory Management Unit</li>
+          <li>Designed an implementation of privilege levels for securing data</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">SKILLS AND EXPERTISE</div>
+      <div contenteditable="true">
+        <p><strong>Programming Languages:</strong> Python, C++, C, Ocaml, Prolog, HDL, RISC-V</p>
+        <p><strong>Frameworks and Libraries:</strong> Django, Flutter, Android, Numpy, jQuery, Bootstrap</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">POSITIONS OF RESPONSIBILITY</div>
+      <div contenteditable="true">
+        <p><strong>Student Guide | Counselling Service Team</strong> <span class="project-duration">May'20 - July'21</span></p>
+        <ul>
+          <li>Guided and mentored students in acclimatizing to the Environment of the Institute.</li>
+          <li>Helped them with their academics by arranging meetings with their mentors and still maintain a good rapport with them.</li>
+          <li>Coordinated with other Student Guides and helped in the organization of Orientation Programme 2019.</li>
+        </ul>
+
+        <p><strong>Volunteer | Student Settlement Office</strong> <span class="project-duration">May'19 - July'20</span></p>
+        <ul>
+          <li>Managed logistics of admissions, interviews for the recruiting process.</li>
+          <li>Handled recruitment process at companies like Tower Research, IBM (Consulting).</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">AWARDS AND ACHIEVEMENTS</div>
+      <div contenteditable="true">
+        <ul>
+          <li>Secured All India Rank of 380 in JEE Advanced 2018(out of 1,72,000 candidates).</li>
+          <li>Secured All India Rank of 380 in JEE Main 2018(out of 2,31,000 candidates).</li>
+          <li>Awarded NTSE scholarship in 2016 by NCERT.</li>
+          <li>Secured All India Rank 5 in National Science Talent Search Examination(NSTSE) in 2016 conducted by Unified Council.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">EXTRA CURRICULAR ACTIVITIES</div>
+      <div contenteditable="true">
+        <ul>
+          <li>Part of the Institute Illumination Team 2018 present</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 

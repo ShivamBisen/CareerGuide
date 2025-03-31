@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background: #fff;
+    }
+
+    .cv-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .institute-logo {
+      width: 100px;
+      height: 100px;
+    }
+
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ddd;
+    }
+
+    .student-info {
+      text-align: center;
+      flex-grow: 1;
+      padding: 0 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #000;
+    }
+
+    .institute-name {
+      color: #444;
+      margin: 5px 0;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section-header {
+      background: #f0f0f0;
+      padding: 8px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background: #f8f8f8;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 5px;
+    }
+
+    .project-title {
+      font-weight: bold;
+      color: #000;
+    }
+
+    .project-guide {
+      color: #666;
+      font-style: italic;
+    }
+
+    .project-duration {
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    [contenteditable="true"] {
+      outline: none;
+      padding: 2px;
+      border-radius: 2px;
+    }
+
+    [contenteditable="true"]:hover {
+      background: #f8f8f8;
+    }
+
+    [contenteditable="true"]:focus {
+      background: #f0f0f0;
+      box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="header">
+      <img class="institute-logo" src="/images/iitb-logo.png" alt="IIT Bombay Logo">
+      <div class="student-info">
+        <h1 contenteditable="true">YOUR NAME | ROLL NUMBER</h1>
+        <p class="institute-name" contenteditable="true">Indian Institute of Technology, Bombay</p>
+      </div>
+      <div class="profile-photo" contenteditable="true">Photo</div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">EDUCATION</div>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Degree/Exam</th>
+          <th>Institute</th>
+          <th>CGPA/Percentage</th>
+        </tr>
+        <tr contenteditable="true">
+          <td>2019</td>
+          <td>B.Tech Computer Science and Engineering</td>
+          <td>Indian Institute of Technology Bombay</td>
+          <td>9.50</td>
+        </tr>
+        <tr contenteditable="true">
+          <td>2019</td>
+          <td>Class XII State Board</td>
+          <td>Your School Name</td>
+          <td>95%</td>
+        </tr>
+        <tr contenteditable="true">
+          <td>2017</td>
+          <td>Class X State Board</td>
+          <td>Your School Name</td>
+          <td>10/10</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-header">INTERNSHIPS AND PROJECTS</div>
+      <div class="project" contenteditable="true">
+        <div class="project-header">
+          <span class="project-title">Project Title</span>
+          <span class="project-guide">Prof. Guide Name</span>
+        </div>
+        <div class="project-duration">Duration</div>
+        <ul>
+          <li>Description of your work and achievements</li>
+          <li>Technologies used and impact created</li>
+          <li>Link to project repository</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">SKILLS AND EXPERTISE</div>
+      <div contenteditable="true">
+        <p><strong>Programming Languages:</strong> List your programming languages</p>
+        <p><strong>Frameworks and Libraries:</strong> List your frameworks and libraries</p>
+        <p><strong>Tools and Technologies:</strong> List your tools and technologies</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">POSITIONS OF RESPONSIBILITY</div>
+      <div contenteditable="true">
+        <p><strong>Position Title | Organization</strong> <span class="project-duration">Duration</span></p>
+        <ul>
+          <li>Description of your responsibilities</li>
+          <li>Impact and achievements in the role</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">AWARDS AND ACHIEVEMENTS</div>
+      <div contenteditable="true">
+        <ul>
+          <li>List your academic achievements</li>
+          <li>List your competitive exam ranks</li>
+          <li>List your scholarships and recognition</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">EXTRA CURRICULAR ACTIVITIES</div>
+      <div contenteditable="true">
+        <ul>
+          <li>List your extra curricular activities</li>
+          <li>List your hobbies and interests</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 

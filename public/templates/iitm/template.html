@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>IIT Madras CV Template</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 3px solid #7C3AED;
+      padding-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      color: #1a1a1a;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    header p {
+      margin: 10px 0;
+      color: #4a4a4a;
+      font-size: 16px;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #7C3AED;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    h2::after {
+      content: '';
+      flex-grow: 1;
+      height: 1px;
+      background: #e0e0e0;
+      margin-left: 10px;
+    }
+
+    .education p, .experience p {
+      margin: 5px 0;
+    }
+
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+      list-style-type: square;
+    }
+
+    li {
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    strong {
+      color: #2a2a2a;
+      font-weight: 600;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .skill-category {
+      background: #f8f8f8;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .skill-category h3 {
+      color: #7C3AED;
+      margin: 0 0 10px 0;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <header>
+      <h1 contenteditable="true">Your Name</h1>
+      <p contenteditable="true">
+        Department of Computer Science and Engineering<br>
+        Indian Institute of Technology Madras<br>
+        Email: your.email@smail.iitm.ac.in<br>
+        Phone: +91-XXXXXXXXXX
+      </p>
+    </header>
+
+    <section class="education">
+      <h2>Education</h2>
+      <div contenteditable="true">
+        <p><strong>Indian Institute of Technology Madras</strong></p>
+        <p>Bachelor of Technology in Computer Science and Engineering</p>
+        <p>Expected Graduation: May 2024</p>
+        <p>CGPA: X.XX/10.0</p>
+      </div>
+    </section>
+
+    <section class="experience">
+      <h2>Professional Experience</h2>
+      <div contenteditable="true">
+        <p><strong>Company Name</strong> | Position</p>
+        <p>Duration: May 20XX - July 20XX</p>
+        <ul>
+          <li>Achievement or responsibility with quantifiable impact</li>
+          <li>Technical contribution or project leadership example</li>
+          <li>Innovation or improvement implemented</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Technical Projects</h2>
+      <div contenteditable="true">
+        <p><strong>Project Title</strong> | Technologies Used</p>
+        <p>Duration: Month 20XX - Month 20XX</p>
+        <ul>
+          <li>Problem statement and solution approach</li>
+          <li>Implementation details and technical challenges overcome</li>
+          <li>Results and impact metrics</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid" contenteditable="true">
+        <div class="skill-category">
+          <h3>Programming</h3>
+          <ul>
+            <li>Languages: Python, Java, C++</li>
+            <li>Web: HTML, CSS, JavaScript</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Technologies</h3>
+          <ul>
+            <li>Frameworks: React, Node.js</li>
+            <li>Tools: Git, Docker</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements">
+      <h2>Achievements & Activities</h2>
+      <div contenteditable="true">
+        <ul>
+          <li><strong>Academic:</strong> Relevant academic achievements</li>
+          <li><strong>Technical:</strong> Hackathon wins or competitions</li>
+          <li><strong>Leadership:</strong> Positions held and initiatives led</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

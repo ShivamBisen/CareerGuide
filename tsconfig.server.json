@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist-server",
+    "rootDir": ".",
+    "allowJs": true
+  },
+  "include": ["server.ts", "src/api/**/*.ts"],
+  "exclude": ["node_modules"]
+} 

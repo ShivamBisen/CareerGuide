@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>IIT Bombay CV Template</title>
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #2d3748;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      position: relative;
+      padding-bottom: 20px;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 3px;
+      background: #7C3AED;
+    }
+
+    h1 {
+      margin: 0;
+      color: #1a202c;
+      font-size: 32px;
+      font-weight: 500;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin: 10px 0;
+      color: #4a5568;
+      font-size: 16px;
+    }
+
+    section {
+      margin-bottom: 30px;
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #7C3AED;
+      font-size: 22px;
+      font-weight: 500;
+      margin: 0 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e2e8f0;
+    }
+
+    .education p, .experience p {
+      margin: 8px 0;
+    }
+
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    li::before {
+      content: '•';
+      color: #7C3AED;
+      font-weight: bold;
+      position: absolute;
+      left: -15px;
+    }
+
+    strong {
+      color: #2d3748;
+      font-weight: 500;
+    }
+
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-group {
+      background: #f7fafc;
+      padding: 15px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .skill-group h3 {
+      color: #7C3AED;
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .dates {
+      color: #718096;
+      font-size: 0.9em;
+    }
+
+    .highlight {
+      color: #7C3AED;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <header>
+      <h1 contenteditable="true">Your Name</h1>
+      <p contenteditable="true">
+        Department of Computer Science and Engineering<br>
+        Indian Institute of Technology Bombay<br>
+        Email: your.email@iitb.ac.in<br>
+        Phone: +91-XXXXXXXXXX
+      </p>
+    </header>
+
+    <section class="education">
+      <h2>Education</h2>
+      <div contenteditable="true">
+        <p><strong>Indian Institute of Technology Bombay</strong></p>
+        <p>Bachelor of Technology in Computer Science and Engineering</p>
+        <p class="dates">Expected Graduation: May 2024</p>
+        <p>CGPA: X.XX/10.0</p>
+      </div>
+    </section>
+
+    <section class="experience">
+      <h2>Professional Experience</h2>
+      <div contenteditable="true">
+        <p><strong>Company Name</strong> <span class="highlight">|</span> Position</p>
+        <p class="dates">May 20XX - July 20XX</p>
+        <ul>
+          <li>Led development of feature X resulting in Y% improvement</li>
+          <li>Implemented scalable solution handling Z requests per second</li>
+          <li>Collaborated with cross-functional teams to deliver project ahead of schedule</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Technical Projects</h2>
+      <div contenteditable="true">
+        <p><strong>Project Title</strong> <span class="highlight">|</span> Key Technologies</p>
+        <p class="dates">Month 20XX - Month 20XX</p>
+        <ul>
+          <li>Developed innovative solution for [problem statement]</li>
+          <li>Implemented using [technical stack] with focus on performance</li>
+          <li>Achieved [measurable results] through optimization</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-container" contenteditable="true">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python (Advanced)</li>
+            <li>Java (Intermediate)</li>
+            <li>C++ (Proficient)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web Technologies</h3>
+          <ul>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools & Platforms</h3>
+          <ul>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements">
+      <h2>Achievements & Leadership</h2>
+      <div contenteditable="true">
+        <ul>
+          <li>Secured [rank] in [competition/hackathon]</li>
+          <li>Led team of X members for [project/initiative]</li>
+          <li>Published research paper in [conference/journal]</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

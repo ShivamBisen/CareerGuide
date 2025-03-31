@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210mm" height="297mm" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+  <rect width="210" height="297" fill="white"/>
+  
+  <!-- Header -->
+  <text x="105" y="30" text-anchor="middle" font-family="Times New Roman" font-size="16">
+    Your Name
+  </text>
+  <text x="105" y="45" text-anchor="middle" font-family="Times New Roman" font-size="8">
+    Department of Computer Science and Engineering
+  </text>
+  <text x="105" y="55" text-anchor="middle" font-family="Times New Roman" font-size="8">
+    Indian Institute of Technology Kharagpur
+  </text>
+  
+  <!-- Education -->
+  <text x="20" y="80" font-family="Times New Roman" font-size="10" font-weight="bold">
+    Education
+  </text>
+  <line x1="20" y1="85" x2="190" y2="85" stroke="black" stroke-width="0.5"/>
+  
+  <!-- Experience -->
+  <text x="20" y="120" font-family="Times New Roman" font-size="10" font-weight="bold">
+    Professional Experience
+  </text>
+  <line x1="20" y1="125" x2="190" y2="125" stroke="black" stroke-width="0.5"/>
+  
+  <!-- Projects -->
+  <text x="20" y="160" font-family="Times New Roman" font-size="10" font-weight="bold">
+    Projects
+  </text>
+  <line x1="20" y1="165" x2="190" y2="165" stroke="black" stroke-width="0.5"/>
+  
+  <!-- Skills -->
+  <text x="20" y="200" font-family="Times New Roman" font-size="10" font-weight="bold">
+    Technical Skills
+  </text>
+  <line x1="20" y1="205" x2="190" y2="205" stroke="black" stroke-width="0.5"/>
+  
+  <!-- Achievements -->
+  <text x="20" y="240" font-family="Times New Roman" font-size="10" font-weight="bold">
+    Achievements
+  </text>
+  <line x1="20" y1="245" x2="190" y2="245" stroke="black" stroke-width="0.5"/>
+</svg> 

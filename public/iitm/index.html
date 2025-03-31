@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | Template-2</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="../global.css">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="m-4 d-flex justify-content-center">
+      <a href="../" class="btn btn-info mx-2">Home</a>
+      <button id="editCv" class="btn btn-secondary mx-2">Edit</button>
+      <button id="saveCv" class="btn btn-primary mx-2">Save</button>
+      <button id="resetCv" class="btn btn-danger mx-2">Reset</button>
+      <button id="printCv" class="btn btn-success mx-2">Download</button>
+    </div>
+    <hr class="section-separator" />
+    <div id="cv" class="iitm-cv-container cv-container">
+      <div class="header">
+        <div class="logo-container">
+          <img src="../img/logo/iitm-logo.png" />
+        </div>
+        <div class="intro-block">
+          <h1 class="intro-text">Rahul Kumar</h1>
+          <h2 class="intro-text">Computer Science and Engineering</h2>
+          <h2 class="intro-text">Indian Institute of Technology Madras</h2>
+        </div>
+        <div class="intro-block">
+          <h2 class="intro-text">CS19B052</h2>
+          <h2 class="intro-text">B.Tech</h2>
+          <h2 class="intro-text">Male</h2>
+          <h2 class="intro-text">DOB: 15/08/2001</h2>
+        </div>
+      </div>
+      <div class="education">
+        <div class="section-body">
+          <table>
+            <tr class="table-header">
+              <th>Examination</th>
+              <th>Institute</th>
+              <th>Year</th>
+              <th>CGPA / %</th>
+            </tr>
+            <tr>
+              <td>B.Tech</td>
+              <td>IIT Madras</td>
+              <td>2023</td>
+              <td>9.12</td>
+            </tr>
+            <tr>
+              <td>Class XII, CBSE</td>
+              <td>DAV Public School, Chennai</td>
+              <td>2019</td>
+              <td>96.40</td>
+            </tr>
+            <tr>
+              <td>Class X, CBSE</td>
+              <td>DAV Public School, Chennai</td>
+              <td>2017</td>
+              <td>97.60</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="achievements">
+        <h1 class="section-heading">Scholastic Achievements</h1>
+        <div class="section-body">
+          <ul>
+            <li>Secured All India Rank of 156 in JEE Advanced 2019(out of 1,61,319 candidates).</li>
+            <li>Secured All India Rank of 243 in JEE Mains 2019(out of 11,47,000 candidates).</li>
+            <li>KVPY Fellow (SA Stream) with AIR 127.</li>
+            <li>Gold Medal in International Mathematics Olympiad (IMO) 2018.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects">
+        <h1 class="section-heading">Internships and Projects</h1>
+        <div class="section-body">
+          <ul>
+            <li class="heading">
+              <span>
+                Machine Learning Research Intern at Microsoft Research
+                <span class="timeline">May'21 - July'21</span>
+              </span>
+              <span class="prof">Dr. Venkat Padmanabhan</span>
+            </li>
+            <li>Developed novel deep learning models for urban traffic prediction</li>
+            <li>Implemented and evaluated multiple LSTM architectures for time-series forecasting</li>
+            <li>Achieved 15% improvement in prediction accuracy over baseline models</li>
+          </ul>
+          <ul>
+            <li class="heading">
+              <span>
+                Distributed Systems Project
+                <span class="timeline">Jan'21 - April'21</span>
+              </span>
+              <span class="prof">Prof. Krishna Moorthy</span>
+            </li>
+            <li>Built a fault-tolerant distributed key-value store using Raft consensus algorithm</li>
+            <li>Implemented leader election, log replication, and membership changes</li>
+            <li>Achieved 99.99% availability under various network partition scenarios</li>
+          </ul>
+          <ul>
+            <li class="heading">
+              <span>
+                Computer Vision Research Project
+                <span class="timeline">Aug'20 - Dec'20</span>
+              </span>
+              <span class="prof">Prof. Mitesh Khapra</span>
+            </li>
+            <li>Developed a real-time object detection system using YOLOv4</li>
+            <li>Implemented custom data augmentation techniques for improved accuracy</li>
+            <li>Published results at ICVGIP 2021 conference</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills">
+        <h1 class="section-heading">Technical Skills</h1>
+        <div class="section-body">
+          <p><strong>Programming Languages:</strong> Python, C++, Java, JavaScript, Go</p>
+          <p><strong>Frameworks and Tools:</strong> TensorFlow, PyTorch, React, Node.js, Docker, Kubernetes</p>
+          <p><strong>Areas of Interest:</strong> Machine Learning, Distributed Systems, Computer Vision</p>
+        </div>
+      </div>
+      <div class="por">
+        <h1 class="section-heading">Positions of Responsibility</h1>
+        <div class="section-body">
+          <ul>
+            <li class="heading">
+              <span>Secretary | Computer Science and Engineering Association</span>
+              <span class="timeline">April'21 - Present</span>
+            </li>
+            <li>Organized technical workshops and coding competitions for 500+ students</li>
+            <li>Managed a team of 20 volunteers for various departmental events</li>
+            <li>Initiated an industry mentorship program connecting students with alumni</li>
+          </ul>
+          <ul>
+            <li class="heading">
+              <span>Core Team Member | Shaastra (Technical Festival)</span>
+              <span class="timeline">May'20 - March'21</span>
+            </li>
+            <li>Led the development of the official Shaastra 2021 website</li>
+            <li>Coordinated with 30+ companies for sponsorship and technical events</li>
+            <li>Managed online events with participation from 100+ colleges</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../global.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html> 
